@@ -159,9 +159,10 @@ footer nav a {
 nav.topnav a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
-img.jumbo-jpg{
+img.image{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -170,7 +171,51 @@ img.jumbo-jpg{
     width: 800px;
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-box{
+    border-bottom: 3px dotted black;
+}
+
+.right-box{
+    margin: 20px 0 20px 20px;
+}
+
+.left-box{
+    margin: 20px 20px 20px 0;
+}
+
+.inner-box-img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.gray-box{
+    border-bottom: 3px dotted gray;
+}
+
+div.inner-box p{
+    margin-bottom: 15px;
+}
+
+div.inner-box button{
+    font-weight: bold;
+    padding: 10px 28px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* ########## psudo-clases ########## */
+
+
+
 /* ########## Boxes ########## */
+
 .middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
