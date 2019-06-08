@@ -150,7 +150,7 @@ footer nav a {
 .topnav{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: baseline;
     padding: 30px 0;
     width: 820px;
     margin: 0 auto;
@@ -160,6 +160,7 @@ nav.topnav a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    padding: 10px 20px;
 }
 
 header.top-header{
@@ -181,7 +182,7 @@ img.image{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 820px;
 }
 
@@ -225,17 +226,27 @@ div.inner-box button{
     margin-bottom: 20px;
 }
 
-section h2{
+section.special h2{
     margin: 25px 0;
 }
 
-section p{
+section.special p{
     margin-bottom: 35px;
 }
 
 /* ########## psudo-clases ########## */
 
+nav a:hover{
+    background: black;
+    color: white;
+    font-weight: bold;
+}
 
+button.clickMe:hover{
+    background: black;
+    color: white;
+    font-weight: bold;
+}
 
 /* ########## Boxes ########## */
 
